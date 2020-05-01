@@ -1,0 +1,52 @@
+header {
+  padding: 2%;
+  grid-area: hd;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: #f6d186;
+}
+
+header > h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #9c7526;
+  font-size: 3rem;
+  font-stretch: expanded;
+}
+
+#nav-menu {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 0.5em;
+  margin: 0px;
+  transition: all 0.3s;
+}
+
+li {
+  padding: 0 5px;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 5px;
+  font-size: 1.4em;
+}
+
+.nav-item > a {
+  padding: 8px 20px;
+  border-radius: 2px;
+  color: #008080;
+  outline: none;
+  text-decoration: none;
+}
+
+.nav-item > a:hover {
+  background-color: #e0ebe8;
+}
