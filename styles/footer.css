@@ -1,0 +1,32 @@
+footer {
+  margin-top: 30px;
+  grid-area: ft;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #f6d186;
+  line-height: 0.5rem;
+}
+
+footer > p {
+  color: #9c7526;
+}
+
+.link-img {
+  opacity: 0.7;
+  width: 30px;
+  height: 30px;
+  margin: auto 10px;
+}
+
+.link-img:hover {
+  opacity: 0.4;
+}
+
+.sources > a {
+  text-decoration: none;
+  color: #9c7526;
+}
+
+.sources > a:hover {
+  opacity: 0.5;
+}
